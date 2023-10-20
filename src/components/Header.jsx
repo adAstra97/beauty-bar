@@ -6,7 +6,7 @@ import { FiChevronDown } from 'react-icons/fi';
 import { RiMenu3Line } from 'react-icons/ri';
 import { GrClose } from 'react-icons/gr';
 
-import { Buttons, ButtonsPhone, HeaderEl, HeaderWrapper, Lang, LangPhone, Logo, LogoText, Menu, MenuSmall, NavEl, Navbar, NavbarSmall } from '../styles/Home/Header';
+import { Buttons, ButtonsPhone, HeaderEl, HeaderWrapper, Lang, LangPhone, Logo, LogoText, Menu, MenuSmall, NavEl, Navbar, NavbarSmall } from '../styles/HeaderStyle';
 
 
 const Header = () => {

@@ -1,6 +1,12 @@
+import Hero from "../components/Home/Hero";
+import Slider from "../components/Home/Slider";
+
 const Home = () => {
    return (
-      <div>Home</div>
+      <>
+         <Hero/>
+         <Slider/>
+      </>
    )
 }
 
