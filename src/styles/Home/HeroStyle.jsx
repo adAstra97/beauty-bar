@@ -7,27 +7,16 @@ import images from "../../constants/images";
 export const HeroWrapper = styled.div`
    max-width: 1920px;
    margin: 0 auto;
-`;
-
-export const Container = styled.div`
-   position: relative;
-
-   & > img {
-      position: absolute;
-      right: 0%;
-
-      @media (max-width: 1040px) {
-         display: none;
-      }
-   }
+   background-image: linear-gradient(90deg, rgb(66, 42, 60) 31.75%, rgba(66, 42, 60, 0.85) 47.03%, rgba(66, 42, 60, 0.80) 49.96%, rgba(66, 42, 60, 0.31) 55.81%, rgba(66, 42, 60, 0.00) 75.7%),url(/src/assets/hero.png),
+      url(${images.hero});
+      background-repeat: no-repeat;
+	   background-position: right;
 `;
 
 export const HeroEl = styled.div`
    padding: 256px 0;
-   left: 0;
-   position: absolute;
-   background: linear-gradient(90deg, rgb(66, 42, 60) 55.75%, rgba(66, 42, 60, 0.85) 66.03%, rgba(66, 42, 60, 0.80) 75.96%, rgba(66, 42, 60, 0.31) 84.81%, rgba(66, 42, 60, 0.00) 99.7%);
    padding-left: 10%;
+   max-width: 950px;
 
    @media (max-width: 1200px) {
       padding-left: 5%;
@@ -181,12 +170,13 @@ export const movingFlare = keyframes`
 export const Button = styled.button.attrs({
    type: 'button',
 })`
-   padding: 14px 38px;
+   width: 210px;
    border-radius: 56px;
    background: ${({theme}) => theme.colors.main};
    color: ${({theme}) => theme.colors.white};
    display: flex;
    align-items: center;
+   justify-content: center;
    gap: 23px;
    cursor: pointer;
    font-family: 'Manrope', sans-serif;
@@ -202,6 +192,8 @@ export const Button = styled.button.attrs({
    @media (max-width: 1100px) {
       margin-left: 0;
       justify-content: center;
+      width: 100%;
+      padding: 20px 0;
    }
 
    &:after {

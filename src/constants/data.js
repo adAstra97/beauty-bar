@@ -48,4 +48,34 @@ export const slides = [
       images: images.service6,
       title: 'Fodterapeut',
    },
+   {
+      id: 7,
+      images: images.service1,
+      title: 'Makeup-artist',
+   },
+   {
+      id: 8,
+      images: images.service2,
+      title: 'Wellnesscenter',
+   },
+   {
+      id: 9,
+      images: images.service3,
+      title: 'Barbersalon',
+   },
+   {
+      id: 10,
+      images: images.service4,
+      title: 'Frisørsalon',
+   },
+   {
+      id: 11,
+      images: images.service5,
+      title: 'Massageklinik',
+   },
+   {
+      id: 12,
+      images: images.service6,
+      title: 'Fodterapeut',
+   },
 ];
