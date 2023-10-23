@@ -7,6 +7,11 @@ import service3 from '../assets/service3.png';
 import service4 from '../assets/service4.png';
 import service5 from '../assets/service5.png';
 import service6 from '../assets/service6.png';
+import experience1 from '../assets/experience1.png';
+import experience2 from '../assets/experience2.png';
+import experience3 from '../assets/experience3.png';
+import experience4 from '../assets/experience4.png';
+import experience5 from '../assets/experience5.png';
 
 
 export default {
@@ -19,4 +24,9 @@ export default {
    service4,
    service5,
    service6,
+   experience1,
+   experience2,
+   experience3,
+   experience4,
+   experience5,
 };

@@ -1,3 +1,4 @@
+import Experience from "../components/Home/Experience";
 import Hero from "../components/Home/Hero";
 import Slider from "../components/Home/Slider";
 
@@ -6,6 +7,7 @@ const Home = () => {
       <>
          <Hero/>
          <Slider/>
+         <Experience/>
       </>
    )
 }

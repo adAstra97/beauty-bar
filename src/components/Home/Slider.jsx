@@ -13,13 +13,33 @@ const Slider = () => {
          <Container>
             <Swiper
                modules={[Autoplay]}
-               slidesPerView={6}
+               // slidesPerView={6}
                spaceBetween={50}
                loop={true}
                grabCursor={true}
                autoplay={{
                   delay: 2700,
                   disableOnInteraction: false,
+               }}
+               breakpoints={{
+                  319: {
+                     slidesPerView: 1,
+                  },
+                  400: {
+                     slidesPerView: 2,
+                  },
+                  530: {
+                     slidesPerView: 3,
+                  },
+                  700: {
+                     slidesPerView: 4,
+                  },
+                  1000: {
+                     slidesPerView: 5,
+                  },
+                  1200: {
+                     slidesPerView: 6,
+                  }
                }}
             >
                {slides.map(slide => {
