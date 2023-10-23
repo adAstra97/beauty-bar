@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
 export const GlobalStyle = createGlobalStyle`
@@ -23,8 +23,8 @@ export const GlobalStyle = createGlobalStyle`
    }
 
    h2 {
-      color: ${({theme}) => theme.colors.primary};
-      font-family: 'Playfair Display', sans;
+      color: ${({ theme }) => theme.colors.primary};
+      font-family: 'Playfair Display', serif;
       font-size: 4.5rem;
       font-weight: 700;
       line-height: 1.3;

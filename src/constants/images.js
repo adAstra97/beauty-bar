@@ -12,6 +12,11 @@ import experience2 from '../assets/experience2.png';
 import experience3 from '../assets/experience3.png';
 import experience4 from '../assets/experience4.png';
 import experience5 from '../assets/experience5.png';
+import recomServices1 from '../assets/recom-services1.png';
+import recomServices2 from '../assets/recom-services2.png';
+import recomServices3 from '../assets/recom-services3.png';
+import recomServices4 from '../assets/recom-services4.png';
+import map from '../assets/map.svg';
 
 
 export default {
@@ -29,4 +34,9 @@ export default {
    experience3,
    experience4,
    experience5,
+   recomServices1,
+   recomServices2,
+   recomServices3,
+   recomServices4,
+   map
 };

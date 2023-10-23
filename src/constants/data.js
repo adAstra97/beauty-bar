@@ -79,3 +79,46 @@ export const slides = [
       title: 'Fodterapeut',
    },
 ];
+
+export const salons = [
+   {
+      id: 1,
+      image: images.recomServices1,
+      rating: 4.5,
+      title: 'Salon Allania',
+      address: 'Brookpark Ext, 27085, North Olmsted, 44070',
+      reviews: 90,
+   },
+   {
+      id: 2,
+      image: images.recomServices2,
+      rating: 4.4,
+      title: 'Salon Beauty',
+      address: '2267 Main st, Fort Myers, 33901',
+      reviews: 104,
+   },
+   {
+      id: 3,
+      image: images.recomServices3,
+      rating: 4.9,
+      title: 'Deluxe room',
+      address: 'Brookpark Ext, 27085, North Olmsted, 44070',
+      reviews: 90,
+   },
+   {
+      id: 4,
+      image: images.recomServices4,
+      rating: 4.6,
+      title: 'Meeting room',
+      address: '2267 Main st, Fort Myers, 33901',
+      reviews: 75,
+   },
+   {
+      id: 5,
+      image: images.recomServices1,
+      rating: 4.2,
+      title: 'Hair Dyeing',
+      address: 'Brookpark Ext, 27085, North Olmsted, 44070',
+      reviews: 50,
+   },
+];

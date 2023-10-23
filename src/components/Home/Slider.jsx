@@ -13,7 +13,6 @@ const Slider = () => {
          <Container>
             <Swiper
                modules={[Autoplay]}
-               // slidesPerView={6}
                spaceBetween={50}
                loop={true}
                grabCursor={true}
