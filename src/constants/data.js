@@ -122,3 +122,4 @@ export const salons = [
       reviews: 50,
    },
 ];
+

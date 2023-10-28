@@ -34,11 +34,11 @@ export const RecommendedEl = styled.div`
 
    .swiper-button-next, .swiper-button-prev {
       color: ${({ theme }) => theme.colors.dark};
-      background-color: ${({ theme }) => theme.colors.secondary};
+      background-color: ${({ theme }) => theme.colors.white};
       border-radius: 50%;
       width: 40px;
       height: 40px;
-      box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 
       &::after {
          font-size: 1.4rem;
