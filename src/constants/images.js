@@ -19,6 +19,7 @@ import recomServices4 from '../assets/recom-services4.png';
 import map from '../assets/map.svg';
 import customer from '../assets/customer.png';
 import commas from '../assets/commas.png';
+import decor from '../assets/decor-testimonial.png';
 
 
 export default {
@@ -43,4 +44,5 @@ export default {
    map,
    customer,
    commas,
+   decor,
 };

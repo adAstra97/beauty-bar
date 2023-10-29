@@ -123,3 +123,29 @@ export const salons = [
    },
 ];
 
+export const testimonials = [
+   {
+      id: 1,
+      name: 'Lislie Alexandrova',
+      city: 'Alberta, Canada',
+      title: 'Neque porro quisquam est qui dolum',
+      text: '“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “',
+      photo: images.customer,
+   },
+   {
+      id: 2,
+      name: 'Ksenia Journal',
+      city: 'Berlin, Germany',
+      title: 'Excepteur sint occaecat cupidatat',
+      text: '“ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. “',
+      photo: images.customer,
+   },
+   {
+      id: 3,
+      name: 'Alesia Lukianova',
+      city: 'Minsk, Belarus',
+      title: 'Deserunt mollit anim id est laborum',
+      text: '“ Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  “',
+      photo: images.customer,
+   },
+];
