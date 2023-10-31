@@ -3,11 +3,10 @@ import { SwiperSlide } from 'swiper/react';
 import images from "../../constants/images";
 
 
-
 export const TestimonialWrapper = styled.div`
    text-align: center;
    background-color: #EFF0F0;
-   padding: 95px 0;
+   padding: 8vh 0;
 
    span {
       font-family: 'Manrope', sans-serif;

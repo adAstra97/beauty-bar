@@ -20,6 +20,8 @@ import map from '../assets/map.svg';
 import customer from '../assets/customer.png';
 import commas from '../assets/commas.png';
 import decor from '../assets/decor-testimonial.png';
+import subscribe from '../assets/subscribe.png';
+import subscribeEmail from '../assets/email-subscribe.svg';
 
 
 export default {
@@ -45,4 +47,6 @@ export default {
    customer,
    commas,
    decor,
+   subscribe,
+   subscribeEmail,
 };

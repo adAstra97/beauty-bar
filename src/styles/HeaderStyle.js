@@ -151,7 +151,7 @@ export const Navbar = styled.div`
 export const NavbarSmall = styled.div`
    display: flex;
    position: fixed;
-   z-index: 1;
+   z-index: 555;
    top: 0;
    right: 0;
    bottom: 0;

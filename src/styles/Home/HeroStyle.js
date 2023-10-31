@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { keyframes } from 'styled-components'
 import Select from "react-select";
 import images from "../../constants/images";
+import { movingFlare } from "../../constants/animations";
 
 
 export const HeroWrapper = styled.div`
@@ -150,21 +150,6 @@ export const CustomSelect = styled(Select).attrs({
       min-width: 100%;
    }
 
-`;
-
-export const movingFlare = keyframes`
-   0% {
-      left: -30px;
-      margin-left: 0px;
-   }
-   30% {
-      left: 110%;
-      margin-left: 80px;
-   }
-   100% {
-      left: 110%;
-      margin-left: 80px;
-   }
 `;
 
 export const Button = styled.button.attrs({
