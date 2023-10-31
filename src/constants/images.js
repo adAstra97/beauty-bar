@@ -22,7 +22,7 @@ import commas from '../assets/commas.png';
 import decor from '../assets/decor-testimonial.png';
 import subscribe from '../assets/subscribe.png';
 import subscribeEmail from '../assets/email-subscribe.svg';
-
+import logoFooter from '../assets/logo-footer.svg';
 
 export default {
    logo,
@@ -49,4 +49,5 @@ export default {
    decor,
    subscribe,
    subscribeEmail,
+   logoFooter,
 };
