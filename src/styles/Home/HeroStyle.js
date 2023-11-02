@@ -38,6 +38,7 @@ export const HeroEl = styled.div`
       padding: 70px 5%;
    }
 `;
+
 export const HeroText = styled.div``;
 
 export const Subtitle = styled.div`

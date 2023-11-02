@@ -23,6 +23,11 @@ import decor from '../assets/decor-testimonial.png';
 import subscribe from '../assets/subscribe.png';
 import subscribeEmail from '../assets/email-subscribe.svg';
 import logoFooter from '../assets/logo-footer.svg';
+import value1 from '../assets/values1.png';
+import value2 from '../assets/values2.png';
+import value3 from '../assets/values3.png';
+import aboutPhoto from '../assets/AboutPhoto.png';
+import points from '../assets/points.svg';
 
 export default {
    logo,
@@ -50,4 +55,9 @@ export default {
    subscribe,
    subscribeEmail,
    logoFooter,
+   value1,
+   value2,
+   value3,
+   aboutPhoto,
+   points,
 };

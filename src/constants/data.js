@@ -149,3 +149,42 @@ export const testimonials = [
       photo: images.customer,
    },
 ];
+
+export const values = [
+   {
+      id: 1,
+      title: 'Beauty Experts',
+      text: 'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
+      img: images.value1,
+   },
+   {
+      id: 2,
+      title: 'Great Services',
+      text: 'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
+      img: images.value2,
+   },
+   {
+      id: 3,
+      title: '100% Genuine',
+      text: 'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
+      img: images.value3,
+   },
+];
+
+export const includes = [
+   {
+      id: 1,
+      title: 'The Assessment Stage',
+      text: 'The point of using Lorem Ipsum is that it has a more-or-less normal letters.',
+   },
+   {
+      id: 2,
+      title: 'The Initialisation Stage',
+      text: 'The point of using Lorem Ipsum is that it has a more-or-less normal letters.',
+   },
+   {
+      id: 3,
+      title: 'The Treatment Stage',
+      text: 'The point of using Lorem Ipsum is that it has a more-or-less normal letters.',
+   },
+];
