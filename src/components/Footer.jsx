@@ -64,15 +64,15 @@ const Footer = () => {
                      <ul className="contacts">
                         <li>
                            <span>Address:</span>
-                           <a href="https://maps.app.goo.gl/qut1TvTv8M9DVoQn9">Mariendalsvej 50D 2 2000 Frederiksberg</a>
+                           <a href="https://maps.app.goo.gl/qut1TvTv8M9DVoQn9" target="_blank">Mariendalsvej 50D 2 2000 Frederiksberg</a>
                         </li>
                         <li>
                            <span>Mail:</span>
-                           <a href="mailto:support@servicemarket.com">support@servicemarket.com</a>
+                           <a href="mailto:support@servicemarket.com" target="_blank">support@servicemarket.com</a>
                         </li>
                         <li>
                            <span>Phone:</span>
-                           <a href="tel:+221234567900">(+22) 123 - 4567 - 900</a>
+                           <a href="tel:+221234567900" target="_blank">(+22) 123 - 4567 - 900</a>
                         </li>
                      </ul>
                   </div>

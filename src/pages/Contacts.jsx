@@ -1,7 +1,15 @@
+import ContactForm from "../components/Contacts/ContactForm";
+import GetInTouch from "../components/Contacts/GetInTouch";
+import Hero from "../components/Contacts/Hero";
+
 const Contacts = () => {
    return (
-      <div>Contacts</div>
+      <>
+         <Hero/>
+         <GetInTouch/>
+         <ContactForm/>
+      </>
    )
-}
+};
 
-export default Contacts
+export default Contacts;

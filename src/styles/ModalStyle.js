@@ -8,7 +8,7 @@ export const ModalMessage = styled.div`
    align-items: center;
    justify-content: center;
    z-index: 900;
-   background-color: rgba(0, 0, 0, 0.6);
+   background-color: rgba(0, 0, 0, 0.3);
 
    div {
       background-color: white;

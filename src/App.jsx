@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
-import Header from "./components/Header";
 import { GlobalStyle } from "./styles/GlobalStyle";
 import { Theme } from "./styles/Theme";
 
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 import AboutUs from "./pages/AboutUs";
@@ -12,19 +12,21 @@ import Contacts from "./pages/Contacts";
 import NotFound from "./pages/NotFound";
 
 
-
 const App = () => {
+
+  const location = useLocation();
+
   return (
       <Theme>
         <GlobalStyle/>
         <Header/>
-        <Main>
-          <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<AboutUs/>}/>
-            <Route path="/contact" element={<Contacts/>}/>
-            <Route path="*" element={<NotFound/>}/>
-          </Routes>
+        <Main key={location.pathname}>
+            <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/about" element={<AboutUs/>}/>
+              <Route path="/contact" element={<Contacts/>}/>
+              <Route path="*" element={<NotFound/>}/>
+            </Routes>
         </Main>
         <Footer/>
       </Theme>
@@ -32,9 +34,3 @@ const App = () => {
 }
 
 export default App;
-// font-family: 'DM Sans', sans-serif;
-// font-family: 'Inter', sans-serif;
-// font-family: 'Manrope', sans-serif;
-// font-family: 'Playfair Display', serif;
-// font-family: 'Port Lligat Slab', serif;
-// font-family: 'Roboto', sans-serif;

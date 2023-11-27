@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
+import 'animate.css';
 
 export const GlobalStyle = createGlobalStyle`
    ${reset}

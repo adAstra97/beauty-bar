@@ -28,6 +28,10 @@ import value2 from '../assets/values2.png';
 import value3 from '../assets/values3.png';
 import aboutPhoto from '../assets/AboutPhoto.png';
 import points from '../assets/points.svg';
+import getInTouch from '../assets/getInTouch.png';
+import contact1 from '../assets/contact1.png';
+import contact2 from '../assets/contact2.png';
+import contact3 from '../assets/contact3.png';
 
 export default {
    logo,
@@ -60,4 +64,8 @@ export default {
    value3,
    aboutPhoto,
    points,
+   getInTouch,
+   contact1,
+   contact2,
+   contact3,
 };

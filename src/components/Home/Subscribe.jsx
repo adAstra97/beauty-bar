@@ -1,21 +1,26 @@
-import { Container } from "../../styles/Container";
-
-import images from "../../constants/images";
-import { Form, SubscribeEl, SubscribeRight, SubscribeWrapper } from "../../styles/Home/SubscribeStyle";
-import { ModalMessage } from "../../styles/ModalStyle";
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
+import { ThreeDots } from "react-loader-spinner";
+
+import { Container, ModalLoader } from "../../styles/Container";
+import images from "../../constants/images";
+import { Form, SubscribeEl, SubscribeRight, SubscribeWrapper } from "../../styles/Home/SubscribeStyle";
+import ModalMessageEl from "../ModalMessage";
 
 const Subscribe = () => {
    const [isOpenning, setIsOpenning] = useState(false);
+   const [isLoading, setIsLoading] = useState(false);
+
    const {register, handleSubmit, reset} = useForm();
 
    const onSubmit = (e) => {
+      setIsLoading(true);
 
       setTimeout(() => {
+         setIsLoading(false);
          setIsOpenning(true);
          reset();
-      }, 2000);
+      }, 1500);
    }
 
    return (
@@ -37,13 +42,12 @@ const Subscribe = () => {
                </SubscribeRight>
             </SubscribeEl>
          </Container>
-         {isOpenning && (
-            <ModalMessage>
-               <div>
-                  <span>Thanks for your subscription!</span>
-                  <button onClick={() => setIsOpenning(false)}>Close</button>
-               </div>
-            </ModalMessage>
+         {isLoading ? (
+            <ModalLoader>
+               <ThreeDots color="white"/>
+            </ModalLoader>
+         ) : isOpenning && (
+               <ModalMessageEl text={'Thanks for your subscription!'} closeModal={() => setIsOpenning(false)}/>
          )}
       </SubscribeWrapper>
    );

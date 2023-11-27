@@ -1,16 +1,22 @@
-import { useState } from 'react';
-import { Container } from "../styles/Container";
-import images from "../constants/images";
-import { NavLink } from "react-router-dom";
+import { useEffect, useState } from 'react';
+
+import { NavLink, useLocation } from "react-router-dom";
 import { FiChevronDown } from 'react-icons/fi';
 import { RiMenu3Line } from 'react-icons/ri';
 import { GrClose } from 'react-icons/gr';
 
+import { Container } from "../styles/Container";
+import images from "../constants/images";
 import { Buttons, ButtonsPhone, HeaderEl, HeaderWrapper, Lang, LangPhone, Logo, LogoText, Menu, MenuSmall, NavEl, Navbar, NavbarSmall } from '../styles/HeaderStyle';
 
 
 const Header = () => {
    const [toggleMenu, setToggleMenu] = useState(false);
+   const {pathname} = useLocation();
+
+   useEffect(() => {
+      window.scrollTo(0, 0);
+   }, [pathname]);
 
    return (
       <HeaderWrapper>

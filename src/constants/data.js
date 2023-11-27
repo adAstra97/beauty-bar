@@ -188,3 +188,27 @@ export const includes = [
       text: 'The point of using Lorem Ipsum is that it has a more-or-less normal letters.',
    },
 ];
+
+export const contacts = [
+   {
+      id: 1,
+      img: images.contact1,
+      title: 'Visit Us :',
+      text: 'Mariendalsvej 50D 2 2000 Frederiksberg',
+      link: 'https://www.google.com/maps/place/Mariendalsvej+50D,+2,+2000+Frederiksberg,+%D0%94%D0%B0%D0%BD%D0%B8%D1%8F/@55.6909593,12.5335155,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b6ae47efef:0x7318fe8c29736225!8m2!3d55.6909593!4d12.5335155?entry=tts',
+   },
+   {
+      id: 2,
+      img: images.contact2,
+      title: 'Drop Us :',
+      text: 'support@beautyness.com',
+      link: 'mailto:support@beautyness.com',
+   },
+   {
+      id: 3,
+      img: images.contact3,
+      title: 'Call Us :',
+      text: 'Call: 1-800-123-9999',
+      link: 'tel:1800123999',
+   }
+];

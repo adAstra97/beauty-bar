@@ -4,8 +4,12 @@ import { movingFlare } from "../../constants/animations";
 
 export const HeroEl = styled.div`
    background-color: ${({theme}) => theme.colors.primary};
+   min-height: 495px;
    text-align: center;
-   padding: 130px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 
    span {
       color: ${({theme}) => theme.colors.secondary};
